@@ -1,4 +1,4 @@
-pub(crate) use self::inner::{do_alloc, Allocator, Global};
+pub use self::inner::{do_alloc, Allocator, Global};
 
 #[cfg(feature = "nightly")]
 mod inner {
